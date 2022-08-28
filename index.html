@@ -1,0 +1,72 @@
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="icon" href="PUBLIC_URL%/favicon.ico" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>WEB PERTAMA</title>
+        <link rel="stylesheet" href="style.css"/>
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+            <img src="GabutSaja/Icon/partner.png" alt="logo" class="logo-img"/>
+                <h1 class="logo-title">Kautsar X</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#jasa">JASA</a></li>
+                    <li><a href="mailto:kautsarrabdal@gmail.com">KONTAK</a></li>
+                </ul>
+            </nav>
+            <button class="btn-cta" onclick="redirInstagram()">Follow Saya</button>
+        </header>
+        <div class="container">
+            <div class="intro">
+                <p class="title">Hello, Kautsarrabdal Here!</p>
+                <p class="description">Teknik Informatika</p>
+                <img src="GabutSaja/Diwisuda.jpg" alt="Diwisuda" class="img-foto"/>
+            </div>
+        </div>
+        <div class="parallax">
+            <div class="tentang">
+                <p class="title">SAYA ADALAH PROGRAMMER</p>
+                <p class="description">NGODING AJA DULU JAGONYA MAH BELAKANGAN.</p>
+                <div class="mt-10">
+                    <button class="btn-cta" onclick="redirWhatsapp()">MARI KERJA SAMA</button>
+                </div>
+            </div>
+            <div class="container">
+                    <div class="card" id="jasa">
+                        <div class="card-item">
+                            <img src="GabutSaja/Icon/24-hours.png" alt="24-hours" class="Icon" />
+                            <p class="card-title">Pelayanan non-stop</p>
+                            <p class="card-description">Servis 24 Jam nonstop ketika anda membutuhkan bantuan.</p>
+                        </div>
+                        <div class="card-item">
+                            <img src="GabutSaja/Icon/hot-deal.png" alt="hot-deal" class="Icon" />
+                            <p class="card-title">jasa paling Murah</p>
+                            <p class="card-description">Biaya jasa yang saya berikan pasi murah dan terjangkau.</p>
+                        </div>
+                        <div class="card-item">
+                            <img src="GabutSaja/Icon/rating.png" alt="rating" class="Icon" />
+                            <p class="card-title">1 Juta Review</p>
+                            <p class="card-description">Client saya sangat dalam bekerjasama dengan Saya.</p>
+                        </div>
+                    </div>
+            </div>
+        </div>
+        <footer>
+            <p class="title">&copy; Muhammad Kautsar Rizqi Abdal Website 2022</p>
+        </footer>
+
+        <script>
+            function redirInstagram() {
+                window.location.href = "https://instagram.com/kautsar_rabdal"
+            }
+            function redirWhatsapp() {
+                window.location.href = "https://wa.me/+6287741662309"
+            }
+        </script>
+    </body>
+</html>
+
